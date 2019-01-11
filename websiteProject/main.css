@@ -1,0 +1,494 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bree Serif', serif;
+    font-size: 12pt;
+    font-weight: 200;
+    color: #FFF;overflow-x: hidden;
+}
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+.section:focus,
+#banner:focus {
+    outline: 0
+}
+p,
+ol,
+ul {
+    margin-top: 0;
+}
+ol,
+ol, ul {
+    padding: 0 0 0 20px;
+}
+p {
+    line-height: 180%;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 400;
+}
+a:hover {
+    text-decoration: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.byline {
+    color: #000
+}
+ul.actions li {
+    display: inline-block;
+    padding: 0
+}
+#testimonial .title {
+    margin-bottom: 3em;
+    text-align: center;
+}
+#testimonial {
+    background-color: #000;
+    background-size: cover;
+}
+#testimonial .text {
+    color: #f2f2f2;
+    font-size: 19px;
+    padding: 8px 12px;
+    font-family: 'Mukta Mahee';
+    font-style: italic;
+    text-align: center;
+    font-weight: 400;
+}
+.numbertext {
+    color: #f2f2f2;
+    padding: 8px 12px;
+    text-align: center;
+}
+.numbertext img {
+    border-radius: 100%;
+    width: 70px;
+}
+#testimonial .active,
+#testimonial .dot:hover {
+    background-color: #717171;
+}
+.customer-name {
+    font-style: initial;
+    font-size: 16px;
+    padding-top: 14px;
+}
+#slides {
+    position: relative;
+    height: 300px;
+    list-style-type: none;
+}
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s;
+}
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+.slide {
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    color: #fff;
+    background-size: cover;
+}
+.controls:hover,
+.controls:focus {
+    background: #eee;
+    color: #333;
+    outline: none;
+}
+/*contact-us */
+
+.contact-us {
+    background: #191411;
+    ;
+}
+.contact-us .title {
+    text-align: center;
+}
+.contact-us .left,
+.contact-us .right {
+    display: inline-block;
+    width: 47%;
+    padding: 0 8px;
+}
+.contact-us .left-right {
+    width: 97.5%;
+    display: block;
+    padding: 0 8px;
+}
+.contact-us form {
+    width:100%;
+    margin: 60px auto 0;
+    display: block;
+}
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 6px 17px;
+    border: 1px solid #484848;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Mukta Mahee';
+    color: #fff;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 16px;
+    background: transparent;
+}
+input[type=text]:focus,
+select:focus,
+textarea:focus,
+input[type=text]:hover,
+select:hover,
+textarea:hover {
+    outline: 2px solid #a81d35;
+    border-radius: 4px
+}
+textarea {
+    height: 100px
+}
+.contact-us input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contact-sumitt {
+    text-align: center;
+}
+.contact-us input[type=submit]:hover {
+    background-color: #45a049;
+}
+.button {
+    display: inline-block;
+    padding: 1em 2em 1em 2em;
+    letter-spacing: 0.10em;
+    margin-top: 2em;
+    padding: 1.40em 3em;
+    background: #a81d35;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    color: #FFF;
+}
+.button-alt {
+    padding: 1em 2em;
+    border-color: rgb(245, 124, 0);
+    color: #FFF;
+}
+ul.actions.buttons {
+    padding: 0;
+}
+.contant-box {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+.contant-img {
+    position: relative;
+    right: 0;
+    top: 0;
+    height: 315px;
+    clear: both;
+}
+
+.contant-img img{text-align: center;
+    display: block;
+    width: 100%;}
+#howitworks.section {
+    padding: 36px 0 0;
+    position: relative;
+}
+.contant-box ul li {
+    padding-bottom: 12px;
+    line-height: 24px;
+    font-size: 16px;
+}
+.title {
+    margin-bottom: 1em;
+    text-align: left;
+}
+.title h2 {
+    font-size: 1.4em;
+    margin-bottom: 28px;
+    font-weight: 100;text-align: center;
+}
+.title .byline {
+    font-size: 1.3em;
+    font-family: 'Mukta Mahee', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400
+}
+#header {
+    position: fixed;
+    
+    width: 100%;
+    background: #ffffff;
+    z-index: 999;
+    top: 0
+}
+#logo {
+    float: left;
+    padding-left:50px;
+}
+#logo h1 {
+    font-size: 24px;
+    color: #79C255;
+}
+#logo img {
+    width: 115px;
+    padding-top: 3px;
+}
+#logo a {
+    text-decoration: none;
+    color: #a81d35;
+}
+.dropbtn {
+    display: block;
+    padding: 10px 0;
+}
+.dropbtn img  { width: 35px;}
+ 
+.mobile-menu {
+    display: inline-block;
+    float: left;
+    width: 50px;
+    position: absolute;
+    left: 0;
+}
+.mobile-menu .dropbtn:hover + #mobile-menu{display: block;}
+#mobile-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: #000;
+}
+#mobile-menu a{    display: block;
+    width: 100%;
+    color: #a81d35;padding: 10px 20px}
+ 
+  
+#banner {
+    padding-top: 2em;
+    text-align: left;
+    padding-left: 7%;
+    color: #2b2829;
+    padding-bottom: 2em;
+    padding-right: 13%;
+    margin-top:49px;
+}
+#banner .title h2 {
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    text-align: left; 
+  
+    margin-bottom: 16px;
+}
+#banner .title .byline {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+.actions .button {
+    margin-top: 0em;
+    padding: 10px 27px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 13px;
+    border-bottom: 2px solid #650918;
+    width: 100%;
+    text-align: center;
+}
+.actions .button:hover {
+     background: #000;
+   
+ 
+
+    font-size: 13px;
+    border-bottom: 2px solid transparent;
+}
+.banner {
+    margin-bottom: 5em;
+}
+.section {
+    padding: 36px 0;
+    position: relative;
+}
+#copyright {
+    overflow: hidden;
+    padding: 1em 0em;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    background: #232322;
+}
+#copyright p {
+    text-align: center;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.3);
+}
+#copyright a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+#three-column {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+#three-column .title h2 {
+    color: rgba(0, 0, 0, 0.8);
+}
+.parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: .2em;
+    color: white;
+    background: rgba(45, 46, 47, 0.43);
+    padding: 10rem 0;
+    mix-blend-mode: exclusion;
+}
+.parallax:nth-of-type(2) {
+    background-image: url('images/header-bg.jpg');
+}
+.parallax:nth-of-type(3) {
+    background-image: url('images/testimonial-bg.jpg');
+}
+#slides {
+    position: relative;
+    height: 300px;
+    list-style-type: none;
+    width: 100%;
+    margin: 0 auto;
+}
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s;
+}
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+.slide {
+    padding: 5px;
+    box-sizing: border-box;
+    color: #fff;
+    background-size: cover;
+}
+.controls:hover,
+.controls:focus {
+    background: #a81d35;
+    color: #fff;
+}
+#testimonial .container {
+    position: relative;
+}
+#testimonial .buttons {
+    position: absolute;
+    left: 0px;
+    top: 55%;
+    z-index: 10;
+    font-size: 0px;
+    position: absolute;
+    width: 100%
+}
+
+
+/*drop down menu*/
+
+ 
+ 
+ #header ul#menu{padding: 0;margin: 0}
+ #header ul#menu > li{
+  float:left;
+  list-style-type:none;
+  position:relative;
+}
+
+ #header label {
+    position: relative;
+    display: block;
+    padding: 0 18px 0 12px;
+    line-height: 1em;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+ 
+
+  #header label:hover,
+ #header input:checked ~ label{background:rgb(212, 212, 212)}
+
+ 
+/*hide the inputs*/
+ #header input{display:none}
+
+/*show the second levele menu of the selected voice*/
+ #header input:checked ~ ul.submenu{
+  max-height:300px;
+  transition:max-height 0.5s ease-in;
+}
+
+/*style for the second level menu*/
+ul.submenu {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background: #a81d35;
+    box-shadow: 0 0 1px rgba(0,0,0,.3);
+    transition: max-height 0.5s ease-out;
+    position: absolute;
+    min-width: 802px;
+    width: 100%;
+}
+
+ul.submenu li a {
+    display: block;
+    padding: 15px 24px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 -1px rgba(175, 175, 175, 0.14) inset;
+    transition: background .3s;
+    font-size: 14px;
+}
+
+ #header ul.submenu li a:hover{
+  background:rgba(0,0,0,.3);
+}
